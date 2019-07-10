@@ -1,6 +1,7 @@
 class Order < ApplicationRecord
   belongs_to :user
-  has_many :products_orders
+  belongs_to :product
+  validates :user_id, uniqueness: {scope: :product_id, :message => "already in cart"}
 
   after_save :check_if_processed
 

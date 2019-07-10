@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 2019_06_25_184930) do
 
   create_table "orders", force: :cascade do |t|
     t.integer "user_id"
+    t.integer "product_id"
     t.boolean "active"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -31,13 +32,6 @@ ActiveRecord::Schema.define(version: 2019_06_25_184930) do
     t.string "size"
     t.integer "price"
     t.boolean "sold"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "products_orders", force: :cascade do |t|
-    t.integer "order_id"
-    t.integer "product_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
