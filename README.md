@@ -1,24 +1,5 @@
-# README
+Link to Frontend:
+https://github.com/ftse105/B_AND_S_Frontend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Link to Demo Video:
+https://www.youtube.com/watch?v=dMU3b53PLK4&feature=youtu.be
